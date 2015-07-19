@@ -1,4 +1,4 @@
-package com.toaker.scrollerwatcher;
+package com.widget.scrollerwatcher.demo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

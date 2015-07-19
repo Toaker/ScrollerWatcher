@@ -13,11 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.toaker.scrollerwatcher;
+package net.soulwolf.widget.scrollerwatcher;
 
 import android.view.ViewGroup;
 
-import com.toaker.scrollerwatcher.callback.ScrollerWatcherCallBack;
+import net.soulwolf.widget.scrollerwatcher.callback.ScrollerWatcherCallBack;
+
 
 /**
  * Decorator for ScrollerWatcher
@@ -31,7 +32,7 @@ public interface ScrollerWatcher {
     /**
      * Set scroll view callback!
      *
-     * @param callBack {@link com.toaker.scrollerwatcher.callback.ScrollerWatcherCallBack} instance!
+     * @param callBack {@link ScrollerWatcherCallBack} instance!
      */
     public void setScrollerWatcherCallBack(ScrollerWatcherCallBack callBack);
 

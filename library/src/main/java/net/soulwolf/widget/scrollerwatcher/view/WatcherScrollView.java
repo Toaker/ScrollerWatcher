@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package com.toaker.scrollerwatcher.view;
+package net.soulwolf.widget.scrollerwatcher.view;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -24,8 +24,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
 
-import com.toaker.scrollerwatcher.ScrollerWatcher;
-import com.toaker.scrollerwatcher.callback.ScrollerWatcherCallBack;
+import net.soulwolf.widget.scrollerwatcher.ScrollerWatcher;
+import net.soulwolf.widget.scrollerwatcher.callback.ScrollerWatcherCallBack;
+
 
 /**
  * Decorator for ScrollerWatcher
@@ -34,7 +35,7 @@ import com.toaker.scrollerwatcher.callback.ScrollerWatcherCallBack;
  *         [Toaker](http://www.toaker.com)
  * @Time Create by 2015/5/14 11:16
  */
-public class WatcherScrollView extends ScrollView implements ScrollerWatcher{
+public class WatcherScrollView extends ScrollView implements ScrollerWatcher {
 
     protected int mCurrentScrollX;
 

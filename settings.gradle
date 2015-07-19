@@ -1,1 +1,1 @@
-include ':sample', ':scrollerwatcher'
+include ':sample', ':library'
