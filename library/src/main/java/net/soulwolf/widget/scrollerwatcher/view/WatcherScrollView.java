@@ -143,10 +143,6 @@ public class WatcherScrollView extends ScrollView implements ScrollerWatcher {
         return mCurrentScrollX;
     }
 
-    @Override
-    public void setInterceptTouchEvent(ViewGroup viewGroup) {
-        this.mInterceptTouchEventViewGroup = viewGroup;
-    }
 
     @Override
     public void scrollTo(int x, int y) {

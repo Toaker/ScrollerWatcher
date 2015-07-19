@@ -66,10 +66,4 @@ public interface ScrollerWatcher {
      */
     public int getCurrentScrollX();
 
-    /**
-     * Set the scroll view's event needs to be passed to the parent control ViewGroup!
-     *
-     * @param viewGroup {@link android.view.ViewGroup} instance!
-     */
-    public void setInterceptTouchEvent(ViewGroup viewGroup);
 }
